@@ -49,7 +49,9 @@
     background-color: gray;
     border-radius: 100px;
   }
-
+  & ::-webkit-resizer {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/12/Black_Double_Chevron.svg);
+  }
   &:after {
     content: "";
     position: absolute;
