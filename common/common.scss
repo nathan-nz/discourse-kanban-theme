@@ -40,7 +40,16 @@
   display: flex;
   overflow-x: scroll;
   padding: 10px 0 5px 0;
-  
+  resize: vertical;
+  & ::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+  }
+  & ::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 100px;
+  }
+
   &:after {
     content: "";
     position: absolute;
