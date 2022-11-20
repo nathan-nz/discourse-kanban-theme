@@ -9,7 +9,9 @@
     background-color: var(--primary-low-mid);
     border-radius: 5px;
   }
-  
+  & ::-webkit-resizer {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ad/Font_Awesome_5_solid_chevron-circle-down.svg);
+  }
  
   &.fullscreen {
     position: fixed;
@@ -49,9 +51,7 @@
     background-color: gray;
     border-radius: 100px;
   }
-  & ::-webkit-resizer {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ad/Font_Awesome_5_solid_chevron-circle-down.svg);
-  }
+
   &:after {
     content: "";
     position: absolute;
