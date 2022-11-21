@@ -1,14 +1,7 @@
 .discourse-kanban {
   position: relative;
   display: flex;
-  & ::-webkit-scrollbar {
-    background: transparent;
-    height: 20px;
-  }
-  & ::-webkit-scrollbar-thumb {
-    background-color: var(--primary-low-mid);
-    border-radius: 5px;
-  }
+
   & ::-webkit-resizer {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ad/Font_Awesome_5_solid_chevron-circle-down.svg);
   }
@@ -43,14 +36,6 @@
   overflow-x: scroll;
   padding: 10px 0 5px 0;
   resize: vertical;
-  & ::-webkit-scrollbar {
-    background: transparent;
-    width: 5px;
-  }
-  & ::-webkit-scrollbar-thumb {
-    background-color: gray;
-    border-radius: 100px;
-  }
 
   &:after {
     content: "";
